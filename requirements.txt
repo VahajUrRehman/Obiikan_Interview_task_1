@@ -1,0 +1,15 @@
+# gRPC and Protocol Buffers
+grpcio>=1.59.2
+grpcio-tools>=1.59.2
+
+# Database
+psycopg2>=2.9.9
+
+# Machine Learning
+huggingface-hub>=0.19.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Utilities
+tqdm>=4.66.0

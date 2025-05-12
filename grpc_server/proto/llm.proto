@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package proto;
+
+service LLM {
+  rpc Ask (LLMRequest) returns (LLMReply);
+}
+
+message LLMRequest {
+  string question = 1;
+}
+
+message LLMReply {
+  string answer = 1;
+}
