@@ -154,9 +154,10 @@ GRPC_SERVER_PORT=50051
   - `topic` (text): The topic or subject
   - `info` (text): The information content
 
-## System Architecture
+## Outputs
 
-![System Architecture](image.png)
+![Responses](outputs/response.png)
+![Database](outputs/database.png)
 
 The system architecture shows:
 1. gRPC server with concurrent request handling
